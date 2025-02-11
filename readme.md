@@ -2,6 +2,8 @@
 
 ThumbnailIt is a command-line tool for extracting evenly spaced thumbnails from a video file and arranging them in a grid.
 
+<img src="thumbnails_demo.png" alt="Demo" width="500" align="center" />
+
 ## Features
 - Extracts a grid of thumbnails from a video file
 - Customizable grid size (rows and columns)
