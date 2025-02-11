@@ -1,4 +1,4 @@
-# ThumbnailIt
+# THUMBNAILIT
 
 ThumbnailIt is a command-line tool for extracting evenly spaced thumbnails from a video file and arranging them in a grid.
 
