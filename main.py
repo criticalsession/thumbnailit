@@ -1,4 +1,6 @@
 import os
+import sys
+
 import cv2
 import matplotlib.pyplot as plt
 import math
@@ -9,7 +11,12 @@ thumbnail_rows = 5
 thumbnail_cols = 5
 total_thumbnails = thumbnail_rows * thumbnail_cols
 
-input_file = 'test.mp4'
+if len(sys.argv) < 2 or sys.argv[1] == '':
+    print('Please provide a file to extract thumbnails from (python main.py <file>)')
+    print()
+    sys.exit()
+
+input_file = sys.argv[1]
 output_name = os.path.splitext(input_file)[0] + '_thumbnails.png'
 print(f'Reading file: {input_file}')
 
